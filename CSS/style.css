@@ -1,0 +1,92 @@
+body{
+    background-size: 100vw 100vh;
+    background-color: black;
+}
+
+header h1{
+    font-family: 'Bebas Neue', cursive;
+    margin: 50px;
+    padding: 10px;
+    text-align: center;
+    font-size: 50px;
+    color: blue;
+
+}
+
+header p{
+    margin: 80px auto;
+    margin-bottom: 10px;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Glory', sans-serif;
+    font-size: 30px;
+    color: white;
+}
+
+
+nav{
+    border: solid 2px;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    height: 250px;
+    margin: 30px auto;
+    width: 676px;
+    padding: 10px;
+}
+
+li{
+    border-radius: 20px;
+    background-color: rgb(36, 34, 32);
+    height: 160px;
+    width: 160px;
+    list-style: none;
+    opacity: 70%;
+    
+}
+
+li:hover{
+    border: solid 2px rgb(255, 255, 255);
+    background-color: rgb(143, 57, 57);
+    opacity: 100%;
+}
+
+a{
+    font-family: 'Glory', sans-serif;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(146, 146, 146);
+    display: inline-block;
+}
+
+a:hover{
+    color: white;
+}
+
+img{
+    border-radius: 19px;
+    opacity: 90%;
+    margin-bottom: 6px;
+}
+
+footer{
+    text-align: center;
+}
+
+button{
+    border: solid 1px;
+    border-radius: 5px;
+    margin: 20px;
+    margin-bottom: 50px;
+    padding: 10px 30px;
+    background-color: black;
+    color: white;
+}
+
+button:hover{
+    background-color: white;
+    color: black;
+}
+
