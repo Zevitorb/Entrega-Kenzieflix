@@ -3,17 +3,14 @@ body{
     background-color: black;
 }
 
-header h1{
-    font-family: 'Bebas Neue', cursive;
-    margin: 50px;
-    padding: 10px;
-    text-align: center;
-    font-size: 50px;
-    color: blue;
-
+header img{
+    width: 200px;
+    margin: 50px auto;
+    padding: 30px;
+    display: block;
 }
 
-header p{
+header h1{
     margin: 80px auto;
     margin-bottom: 10px;
     padding: 10px;
@@ -49,7 +46,7 @@ li{
 
 li:hover{
     border: solid 2px rgb(255, 255, 255);
-    background-color: rgb(143, 57, 57);
+    background-color: rgb(32, 32, 32);
     opacity: 100%;
 }
 
@@ -76,6 +73,7 @@ footer{
 }
 
 button{
+    font-family: 'Glory', sans-serif;
     border: solid 1px;
     border-radius: 5px;
     margin: 20px;
